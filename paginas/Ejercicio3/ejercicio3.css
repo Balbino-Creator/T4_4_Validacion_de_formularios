@@ -1,0 +1,60 @@
+/* Configuracion Global */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: violet;
+    height: 100%;
+}
+
+/* Formulario */
+
+form{
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Input Usuario */
+
+.username{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid yellow;
+    width: 400px;
+    height: 60px;
+}
+
+.username::placeholder{
+    text-align: center;
+    font-size: 42px;
+}
+
+/* Lista */
+
+ul{
+    color: yellow;
+    font-size: 20px;
+}
+
+/* Boton Submit */
+
+.submit{
+    font-size: 20px;
+    padding: 5px 40px;
+    background-color: yellow;
+    color: violet;
+    border-radius: 5px;
+    border: none;
+}
